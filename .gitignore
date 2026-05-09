@@ -1,0 +1,61 @@
+# ===========================
+# Python
+# ===========================
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+tempCodeRunnerFile.py
+
+# ===========================
+# OS generated
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Downloaded / Generated Media
+# ===========================
+# Videos, audio, and extracted frames are runtime artifacts.
+# They are large binary files that should NOT be in version control.
+Storage-Unit/*.mp4
+Storage-Unit/*.wav
+Storage-Unit/*.jpg
+Storage-Unit/*.png
+
+# ===========================
+# Whisper Models (large ML weights)
+# ===========================
+*.pt
+*.bin
+
+# ===========================
+# Output data (sample runs)
+# ===========================
+The_data.txt
+
+# ===========================
+# Environment variables
+# ===========================
+.env
+.env.*
+
+# ===========================
+# Gemini / Antigravity
+# ===========================
+.gemini/

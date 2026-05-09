@@ -1,0 +1,7 @@
+instaloader==4.15.1
+requests==2.33.1
+opencv-python==4.13.0.92
+ffmpeg-python==0.2.0
+whisper-timestamped==1.15.9
+openai-whisper==20250625
+torch==2.11.0
