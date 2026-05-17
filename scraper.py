@@ -19,7 +19,9 @@ class Scraper:
         self.transcript = None
         self.segments = None
 
-
+    '''Each instagram reel has a code attached to it, it has a partciular
+    format to it, and that is how the library gets to know what video to 
+    download and scrape'''
     def extract_shortcode(self, link):
         match = re.search(r'/reel/([^/?]+)', link)
         if match:

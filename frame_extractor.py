@@ -7,11 +7,15 @@ class Frame:
         self.segments = transcript if transcript else []
         self.output_path = output_path
 
+    '''creates a camera object to capture each frame
+    for a particular condtion'''
     def extractor(self):
         cam = cv2.VideoCapture(self.video_path)
 
         timestamp = self.calculate_timestamps()
 
+        '''Here im simply capturing each frames in regular intervals
+        when i the condition isnt true'''
         if not timestamp:
             # cv2.CAP_PROP_DURATION doesn't exist; calculate from frame count and FPS
             frame_count = cam.get(cv2.CAP_PROP_FRAME_COUNT)
@@ -36,6 +40,8 @@ class Frame:
 
         cam.release()
 
+    '''I know this is sort of a bad way to check for the best frames
+    but its a skeleton to work on'''
     def calculate_timestamps(self):
 
         timestamp = []
