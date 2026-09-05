@@ -82,7 +82,7 @@ You will be prompted to paste an Instagram Reel link. The tool will then:
 | [Requests](https://docs.python-requests.org/) | HTTP video download |
 | [OpenCV](https://opencv.org/) | Video frame extraction |
 | [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) | Audio extraction from video |
-| [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped) | Speech-to-text with word timestamps |
+| [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped) | Speech-to-text with word timestamps  |
 
 ## 📝 License
 
