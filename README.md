@@ -86,7 +86,7 @@ You will be prompted to paste an Instagram Reel link. The tool will then:
 
 ## 📝 License
 
-This project is for educational and personal usage.
+This project is for educational and personal use.
 
 ## 🤝 Contributing
 
